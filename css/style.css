@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  background-color: lightgrey;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+ }
+
+/* apply styles to <header> */
+header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-title-left {
+  float: right;
+  border: 2px solid;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-title-right {
+  color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.catch-phrase {
+  position: static;
+  right: 50px;
+  font-style: italic;
+  padding: 20px;
+}
+
+.background-image {
+  background-position: top;
+  opacity: 0.3;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  flex-wrap: wrap;
+  display: block;
+  background-size: cover;
+}
+
+/* About Me Section*/
+
+.about-me {
+  display: flex;
+}
+
+.about-me-box {
+  border-right: 5px solid black;
+  right: 5px;
+  padding: 10px;
+  margin: 10px 0 0 50px;
+}
+
+.about-me-text { 
+  flex: 1;
+  right: 0px;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 10px 10px;
+  line-height: 1.5;
+
+}
+
+/* Work Projects Section */
+
+.work {
+  display: flex;
+  width: 100%; 
+ }
+
+.work-projects-box {
+  border-right: 5px solid black;
+  right: 5px;
+  padding: 10px;
+  margin: 10px 0 0 81px;
+}
+
+.project-image {
+  flex: 1;
+  right: 0px;
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  margin: 10px 0 10px 10px;
+  }
+
+
+/* Contact Me Section */
+
+.contact-me {
+  display: flex;
+}
+
+.contact-me-box {
+  border-right: 5px solid black;
+  right: 5px;
+  padding: 10px;
+  margin: 10px 0 10px 50px;
+
+}
+
+.contact-me-box p {
+ right: 5px;
+ margin: 0 5px 0 0;
+ text-align: right;
+}
+
+.contact-me-info {
+  flex: 1;
+  right: 0px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 0 10px;
+}
+
+.resume {
+  display: flex;
+}
+
+.resume-box {
+  border-right: 5px solid black;
+  right: 15px;
+  padding: 10px;
+  margin: 10px 0 10px 60px;
+}
+
+.resume-image {
+  opacity: 0.3;
+}
